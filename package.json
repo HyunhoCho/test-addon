@@ -1,0 +1,22 @@
+{
+  "name": "fast-js",
+  "version": "1.0.0",
+  "description": "Example of how to start writing c++ modules for node",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "rebuild": "node-gyp rebuild"
+  },
+
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "nan": "^2.14.0",
+    "node-addon-api": "^4.3.0",
+    "node-gyp": "^5.0.1"
+  },
+
+  "author": "Ricky Powell <rickypmusic@gmail.com>",
+  "repository": "https://github.com/rickypowell/fast-js.git",
+  "license": "ISC",
+  "gypfile": true
+}
